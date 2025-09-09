@@ -1,0 +1,5 @@
+IndicatorID,Name,Unit,DesiredDirection,Definition,Source
+ANTENATAL20W,Antenatal visit before 20 weeks,%,Up,Percent of first antenatal visits before 20 weeks gestation.,DHB 2023/24
+PHC_PER_CAP,PHC headcount per capita,rate,Up,Primary Health Care headcount per capita (annual).,DHB 2023/24
+FAC_DELIV,Delivery in facility,%,Up,Percent of births occurring in a health facility.,DHB 2023/24
+TB_SUCCESS,TB treatment success rate,%,Up,Percentage of TB cases with successful treatment outcome.,DHB 2023/24
