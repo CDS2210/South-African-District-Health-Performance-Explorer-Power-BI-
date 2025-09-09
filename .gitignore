@@ -1,1 +1,19 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Node/py temp (if you add scripts later)
+node_modules/
+.env
+__pycache__/
+
+# Power BI
+*.pbix          # large binaries — share via GitHub Releases if needed
+*.pbit.local    # local templates if you make variations
+*.pbix.external
+*.rdl.data
+
+# VS/IDE
+.vscode/
+.idea/
 
