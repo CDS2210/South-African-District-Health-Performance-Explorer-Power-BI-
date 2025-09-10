@@ -3,7 +3,7 @@
 **An interactive Power BI report that tracks district-level health system performance and disease surveillance in South Africa.**  
 It benchmarks provinces/districts, normalises by population, and highlights outliers over time.
 
-![Overview Page](docs/screenshots/overview.png)
+![Overview Page](docs/screenshots/Overview.png)
 
 ---
 
@@ -73,5 +73,30 @@ A small, ready-to-run sample will ship in **Step 2**.
 
 ---
 
+📊 **Overview**
+This Power BI project explores district health indicators and notifiable medical conditions in South Africa.  
+It uses sample data from DHB, Stats SA and NICD (2024 demo).  
+
+⚙️ **Features**
+- National average vs district performance (±5% threshold)
+- Best and worst performing districts
+- District comparison with conditional color bands
+- Map of district performance by indicator
+- Notifiable Medical Conditions per 100k (Measles, Shigellosis)
+- Dynamic slicers (Year, Province, Indicator)
+
+📂 **Project structure**
+- `data_model/` – sample CSV data (dimensions + facts)
+- `powerbi/SA_Health_Dashboard.pbit` – Power BI template
+- `docs/screenshots/` – dashboard visuals
+
+🚀 **How to run**
+1. Clone the repo  
+2. Open `powerbi/SA_Health_Dashboard.pbit` in Power BI Desktop  
+3. Point to the CSV files in `data_model/` when prompted  
+
+💡 **Note:** All data is illustrative demo only, not official health data.
+
+---
 ## 🤝 License
 MIT — see [LICENSE](LICENSE).
